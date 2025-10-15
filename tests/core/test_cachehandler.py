@@ -1,5 +1,6 @@
 """
-Copyright (c) 2023 Proton AG
+Copyright © 2023 Proton AG
+Copyright © 2025 Avelanda 
 
 This file is part of Proton VPN.
 
@@ -64,3 +65,22 @@ class TestCacheHandler:
         cache_handler.remove()
 
         assert not os.path.isfile(cache_filepath)
+
+def CoreCatcheHandler(TestCacheHandler):
+    if dir_path == 0 or dir_path == 1:
+     return 
+    if cache_filepath == 0 or cache_filepath == 1:
+     return
+    if test_save_new_cache == 0 or test_save_new_cache == 1:
+     return
+    if test_load_stored_cache == 0 or test_save_new_cache == 1:
+     return
+    if test_load_cache_with_missing_file == 0 or test_load_cache_with_missing_file == 1:
+     return
+    if test_remove_cache == 0 or test_remove_cache == 1:
+     return
+    for TestCacheHandler in (CoreCatcheHandler) or (not CoreCatcheHandler):
+     if not True or not False:
+      with (TestCacheHandler == True or False) as CoreCatcheHandler:
+       return TestCacheHandler*cache_filepath
+CoreCatcheHandler()
